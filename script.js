@@ -25,7 +25,7 @@ const projects = [
             "assets/projects/shopsphere/1.png",
             "assets/projects/shopsphere/2.png",
             "assets/projects/shopsphere/3.png",
-            "assets/projects/shopsphere/.png"
+            "assets/projects/shopsphere/4.png"
         ],
 
         techStack: [
@@ -80,10 +80,10 @@ const projects = [
 
         images: [
             "assets/projects/SkillGaps/1.png",
-            "assets/projects/skillgaps/2.png",
-            "assets/projects/skillgaps/3.png",
-            "assets/projects/skillgaps/4.png",
-            "assets/projects/skillgaps/5.png"
+            "assets/projects/SkillSaps/2.png",
+            "assets/projects/SkillGaps/3.png",
+            "assets/projects/SkillGaps/4.png",
+            "assets/projects/SkillGaps/5.png"
         ],
 
         techStack: [
@@ -139,8 +139,8 @@ const projects = [
 
         images: [
             "assets/projects/E-Commerce ChatBot/1.png",
-            "assets/projects//E-Commerce ChatBot/2.png",
-            "assets/projects//E-Commerce ChatBot/3.png",
+            "assets/projects/E-Commerce ChatBot/2.png",
+            "assets/projects/E-Commerce ChatBot/3.png",
         ],
 
         techStack: [
@@ -196,10 +196,10 @@ const projects = [
             "A frontend-focused placement preparation system designed to track solved questions, progress, streaks, difficulty levels and preparation statistics.",
 
         images: [
-            "assets/projects/Placement Preparation tracker/1.png",
-            "assets/projects/Placement Preparation tracker/2.png",
-            "assets/projects/Placement Preparation tracker/3.png",
-            "assets/projects/Placement Preparation tracker/4.png",
+            "assets/projects/Placement Preparation Tracker/1.png",
+            "assets/projects/Placement Preparation Tracker/2.png",
+            "assets/projects/Placement Preparation Tracker/3.png",
+            "assets/projects/Placement Preparation Tracker/4.png",
         ],
 
         techStack: [
