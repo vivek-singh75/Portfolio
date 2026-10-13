@@ -355,6 +355,66 @@ const projects = [
     {
         id: 7,
 
+        title: "Image Search",
+
+        category: "frontend",
+
+        categoryName: "Frontend / API Integration",
+
+        shortDescription:
+            "A media search web application that allows users to search for images and videos instantly using external APIs.",
+
+        description:
+            "Image Search is a React-based media search application that integrates external APIs to fetch and display relevant images and videos based on user queries. The application provides a simple and responsive interface where users can search for media with a single click and view dynamically fetched results.",
+
+        images: [
+            "assets/projects/image-search/1.png",
+            "assets/projects/image-search/2.png"
+        ],
+
+        techStack: [
+            "React.js",
+            "JavaScript",
+            "Redux",
+            "REST API",
+            "Vite",
+            "Tailwind CSS"
+        ],
+
+        tools: [
+            "React",
+            "Redux",
+            "Vite",
+            "Git",
+            "GitHub",
+            "GitHub Pages"
+        ],
+
+        features: [
+            "Image search",
+            "Video search",
+            "External API integration",
+            "One-click media search",
+            "Dynamic search results",
+            "Redux state management",
+            "Responsive user interface",
+            "Real-time API data fetching"
+        ],
+
+        progress: 100,
+
+        status: "Completed",
+
+        github:
+            "https://github.com/vivek-singh75/ImageSearch",
+
+        live:
+            "https://vivek-singh75.github.io/ImageSearch/"
+    },
+
+    {
+        id: 8,
+
         title: "College Website Clone",
 
         category: "frontend",
