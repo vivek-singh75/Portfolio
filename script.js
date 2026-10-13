@@ -368,8 +368,9 @@ const projects = [
             "A frontend-only project created to practice responsive web design, layouts, navigation and recreating a real-world website interface.",
 
         images: [
-            "assets/projects/college/1.png",
-            "assets/projects/college/2.png"
+            "assets/projects/college website clone/1.png",
+            "assets/projects/college website clone/2.png",
+            "assets/projects/college website clone/3.png",
         ],
 
         techStack: [
