@@ -65,7 +65,7 @@ img {
 .section {
     width: min(1150px, 92%);
     margin: auto;
-    padding: 110px 0;
+    padding: 40px 0;
 }
 
 .eyebrow {
@@ -80,7 +80,7 @@ img {
     display: flex;
     gap: 25px;
     align-items: flex-start;
-    margin-bottom: 55px;
+    margin-bottom: 42px;
 }
 
 .section-heading > span {
@@ -761,6 +761,46 @@ img {
 }
 
 
+.project-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-live-btn,
+.project-github-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.project-live-btn {
+    background: var(--accent);
+    color: white;
+}
+
+.project-live-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(124,92,255,0.25);
+}
+
+.project-github-btn {
+    border: 1px solid var(--border);
+    color: var(--muted);
+}
+
+.project-github-btn:hover {
+    border-color: var(--accent);
+    color: white;
+}
+
+
 /* =========================
    TIMELINE
 ========================= */
@@ -1053,7 +1093,7 @@ footer strong {
     .about-grid {
         grid-template-columns: 1fr;
 
-        gap: 40px;
+        gap: 25px;
     }
 
     .skills-grid {
@@ -1067,7 +1107,7 @@ footer strong {
 @media (max-width: 700px) {
 
     .section {
-        padding: 80px 0;
+        padding: 52px 0;
     }
 
     .nav-links {
@@ -1106,6 +1146,10 @@ footer strong {
     .skills-grid,
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+
+    .project-content {
+        padding: 20px;
     }
 
     .project-controls {

@@ -1,9 +1,8 @@
 /* =========================================================
    PORTFOLIO PROJECT DATA
-
+   =========================================================
    ADD / EDIT YOUR PROJECTS HERE
 ========================================================= */
-
 
 const projects = [
 
@@ -22,21 +21,12 @@ const projects = [
         description:
             "ShopSphere is a full-stack e-commerce platform where I worked across the frontend and backend. The project focuses on building a practical shopping experience with a modern UI, API-based backend architecture and database integration.",
 
-
-        /*
-            ADD MULTIPLE IMAGES HERE
-
-            Put images inside:
-
-            assets/projects/shopsphere/
-        */
-
         images: [
             "assets/projects/shopsphere/1.png",
             "assets/projects/shopsphere/2.png",
-            "assets/projects/shopsphere/3.png"
+            "assets/projects/shopsphere/3.png",
+            "assets/projects/shopsphere/.png"
         ],
-
 
         techStack: [
             "React",
@@ -46,7 +36,6 @@ const projects = [
             "Tailwind CSS"
         ],
 
-
         tools: [
             "Node.js",
             "Express.js",
@@ -54,7 +43,6 @@ const projects = [
             "Git",
             "GitHub"
         ],
-
 
         features: [
             "Product browsing",
@@ -64,18 +52,16 @@ const projects = [
             "Full-stack architecture"
         ],
 
-
         progress: 20,
 
-        status: "Completed",
+        status: "In Development",
 
         github:
             "https://github.com/vivek-singh75/",
 
         live:
-            "#"
+            "https://vivek-singh75.github.io/ShopSphere/"
     },
-
 
     {
         id: 2,
@@ -92,21 +78,22 @@ const projects = [
         description:
             "SkillGaps analyzes a candidate's resume, job description and self-description to generate technical questions, behavioral questions, skill gaps and a personalized preparation plan using AI.",
 
-
         images: [
-            "assets/projects/skillgaps/1.png",
-            "assets/projects/skillgaps/2.png"
+            "assets/projects/SkillGaps/1.png",
+            "assets/projects/skillgaps/2.png",
+            "assets/projects/skillgaps/3.png",
+            "assets/projects/skillgaps/4.png",
+            "assets/projects/skillgaps/5.png"
         ],
-
 
         techStack: [
             "React",
             "JavaScript",
             "Tailwind CSS",
             "Node.js",
-            "Express.js"
+            "Express.js",
+            "puppeteer",
         ],
-
 
         tools: [
             "MongoDB",
@@ -114,7 +101,6 @@ const projects = [
             "Git",
             "GitHub"
         ],
-
 
         features: [
             "Resume analysis",
@@ -125,18 +111,16 @@ const projects = [
             "Preparation plan"
         ],
 
+        progress: 95,
 
-        progress: 85,
-
-        status: "In Development",
+        status: "Completed",
 
         github:
             "https://github.com/vivek-singh75/",
 
         live:
-            "#"
+            "https://vivek-singh75.github.io/SkillGaps/#/"
     },
-
 
     {
         id: 3,
@@ -153,12 +137,11 @@ const projects = [
         description:
             "This project uses Retrieval-Augmented Generation to provide answers based on company knowledge documents. PDF documents are parsed, converted into chunks, embedded and stored in a vector database. User queries are matched against the knowledge base before generating the final answer.",
 
-
         images: [
-            "assets/projects/chatbot/1.png",
-            "assets/projects/chatbot/2.png"
+            "assets/projects/E-Commerce ChatBot/1.png",
+            "assets/projects//E-Commerce ChatBot/2.png",
+            "assets/projects//E-Commerce ChatBot/3.png",
         ],
-
 
         techStack: [
             "JavaScript",
@@ -166,7 +149,6 @@ const projects = [
             "Express.js",
             "RAG"
         ],
-
 
         tools: [
             "Gemini",
@@ -178,7 +160,6 @@ const projects = [
             "GitHub Pages"
         ],
 
-
         features: [
             "PDF knowledge ingestion",
             "Document chunking",
@@ -188,10 +169,9 @@ const projects = [
             "AI-generated answers"
         ],
 
+        progress: 75,
 
-        progress: 95,
-
-        status: "Completed",
+        status: "in Development",
 
         github:
             "https://github.com/vivek-singh75/E-Commerce-ChatBot",
@@ -200,15 +180,14 @@ const projects = [
             "https://vivek-singh75.github.io/E-Commerce-ChatBot/"
     },
 
-
     {
         id: 4,
 
-        title: "Placement Preparation Tracker",
+        title: "DevTrack",
 
-        category: "frontend",
+        category: "fullstack",
 
-        categoryName: "Frontend",
+        categoryName: "Full Stack",
 
         shortDescription:
             "A placement preparation tracker and analytics dashboard for tracking coding progress.",
@@ -216,12 +195,12 @@ const projects = [
         description:
             "A frontend-focused placement preparation system designed to track solved questions, progress, streaks, difficulty levels and preparation statistics.",
 
-
         images: [
-            "assets/projects/placement-tracker/1.png",
-            "assets/projects/placement-tracker/2.png"
+            "assets/projects/Placement Preparation tracker/1.png",
+            "assets/projects/Placement Preparation tracker/2.png",
+            "assets/projects/Placement Preparation tracker/3.png",
+            "assets/projects/Placement Preparation tracker/4.png",
         ],
-
 
         techStack: [
             "HTML",
@@ -229,13 +208,11 @@ const projects = [
             "JavaScript"
         ],
 
-
         tools: [
             "Git",
             "GitHub",
             "VS Code"
         ],
-
 
         features: [
             "Question tracking",
@@ -245,7 +222,6 @@ const projects = [
             "Dashboard"
         ],
 
-
         progress: 80,
 
         status: "Completed",
@@ -254,70 +230,130 @@ const projects = [
             "https://github.com/vivek-singh75/",
 
         live:
-            "#"
+            "https://vivek-singh75.github.io/placement-preparation-tracker/"
     },
 
+   {
+    id: 7,
 
-    {
-        id: 5,
+    title: "AI ChatBot",
 
-        title: "Face Recognition Attendance",
+    category: "ai",
 
-        category: "ai",
+    categoryName: "AI / Generative AI",
 
-        categoryName: "AI / Computer Vision",
+    shortDescription:
+        "An AI chatbot designed to answer computer science related questions using Gemini AI.",
 
-        shortDescription:
-            "Face recognition based attendance management system.",
+    description:
+        "AI ChatBot is an AI-powered chatbot focused specifically on computer science related questions. The chatbot uses the Gemini AI API to understand user queries and generate relevant answers related to computer science topics.",
 
-        description:
-            "A computer vision based attendance system using face recognition to identify users and record attendance. The project combines a Flask backend with computer vision libraries and database/storage services.",
+    images: [
+        "assets/projects/ChatBot/1.png",
+        "assets/projects/ChatBot/2.png",
+    ],
 
+    techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "Gemini AI API"
+    ],
 
-        images: [
-            "assets/projects/attendance/1.png",
-            "assets/projects/attendance/2.png"
-        ],
+    tools: [
+        "Gemini AI",
+        "Node.js",
+        "Express.js",
+        "Git",
+        "GitHub"
+    ],
 
+    features: [
+        "Computer science focused answers",
+        "AI-powered responses",
+        "Gemini AI integration",
+        "Interactive chatbot interface",
+        "Backend API integration"
+    ],
 
-        techStack: [
-            "Python",
-            "Flask",
-            "OpenCV"
-        ],
+    progress: 100,
 
+    status: "Completed",
 
-        tools: [
-            "Firebase",
-            "SQLite",
-            "Face Recognition",
-            "MediaPipe"
-        ],
+    github:
+        "https://github.com/vivek-singh75/E-Commerce-ChatBot",
 
-
-        features: [
-            "Face detection",
-            "Face recognition",
-            "Attendance recording",
-            "Database storage",
-            "Web interface"
-        ],
-
-
-        progress: 75,
-
-        status: "Completed",
-
-        github:
-            "https://github.com/vivek-singh75/",
-
-        live:
-            "#"
+    live:
+        "https://vivek-singh75.github.io/AiChatbot/"
     },
 
+    {
+    id: 6,
+
+    title: "Movie Recommendation System",
+
+    category: "ai",
+
+    categoryName: "AI / Generative AI",
+
+    shortDescription:
+        "An AI-powered movie recommendation system that uses vector embeddings and cosine similarity to find movies semantically similar to the user's query.",
+
+    description:
+        "Movie Recommendation System uses Gemini Embedding models to convert movie descriptions and user queries into high-dimensional vector embeddings. The system compares these embeddings using cosine similarity and recommends movies based on semantic similarity rather than simple keyword matching.",
+
+    images: [
+        "assets/projects/Movie Recomendation System/1.png",
+        "assets/projects/Movie Recomendation System/2.png",
+        "assets/projects/Movie Recomendation System/3.png",
+        "assets/projects/Movie Recomendation System/4.png",
+        
+    ],
+
+    techStack: [
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "Gemini AI",
+        "Gemini Embeddings",
+        "Vector Embeddings",
+        "Cosine Similarity"
+    ],
+
+    tools: [
+        "Google Gemini API",
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "Git",
+        "GitHub"
+    ],
+
+    features: [
+        "Semantic movie search",
+        "Vector embedding generation",
+        "Gemini embedding model integration",
+        "Cosine similarity based recommendations",
+        "Top movie recommendations",
+        "Natural language movie queries",
+        "Similarity-based ranking"
+    ],
+
+    progress: 100,
+
+    status: "Completed",
+
+    github:
+        "https://github.com/vivek-singh75/",
+
+    live:
+        " https://vivek-singh75.github.io/Movie-Recommendation-System/"
+    },
 
     {
-        id: 6,
+        id: 7,
 
         title: "College Website Clone",
 
@@ -331,12 +367,10 @@ const projects = [
         description:
             "A frontend-only project created to practice responsive web design, layouts, navigation and recreating a real-world website interface.",
 
-
         images: [
             "assets/projects/college/1.png",
             "assets/projects/college/2.png"
         ],
-
 
         techStack: [
             "HTML",
@@ -344,13 +378,11 @@ const projects = [
             "JavaScript"
         ],
 
-
         tools: [
             "VS Code",
             "Git",
             "GitHub"
         ],
-
 
         features: [
             "Responsive design",
@@ -358,7 +390,6 @@ const projects = [
             "Website layout",
             "Interactive elements"
         ],
-
 
         progress: 100,
 
@@ -369,7 +400,7 @@ const projects = [
 
         live:
             "#"
-    }
+    },
 
 ];
 
@@ -422,14 +453,12 @@ function renderProjects() {
     const searchValue =
         searchInput.value.toLowerCase().trim();
 
-
     const filteredProjects =
         projects.filter(project => {
 
             const matchesCategory =
                 currentFilter === "all" ||
                 project.category === currentFilter;
-
 
             const searchableText = [
 
@@ -447,10 +476,8 @@ function renderProjects() {
                 .join(" ")
                 .toLowerCase();
 
-
             const matchesSearch =
                 searchableText.includes(searchValue);
-
 
             return matchesCategory && matchesSearch;
 
@@ -543,6 +570,7 @@ function renderProjects() {
 
                         </div>
 
+
                         <div class="progress-bar">
 
                             <div
@@ -557,9 +585,58 @@ function renderProjects() {
                     </div>
 
 
-                    <span class="view-project">
-                        View →
-                    </span>
+                    <!-- LIVE DEMO + GITHUB BUTTONS -->
+
+                    <div class="project-actions">
+
+                        ${
+                            project.live &&
+                            project.live !== "#"
+
+                            ?
+
+                            `
+                                <a
+                                    href="${project.live}"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="project-live-btn"
+                                    onclick="event.stopPropagation()"
+                                >
+                                    🚀 Live Demo
+                                </a>
+                            `
+
+                            :
+
+                            ""
+                        }
+
+
+                        ${
+                            project.github &&
+                            project.github !== "#"
+
+                            ?
+
+                            `
+                                <a
+                                    href="${project.github}"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="project-github-btn"
+                                    onclick="event.stopPropagation()"
+                                >
+                                    GitHub →
+                                </a>
+                            `
+
+                            :
+
+                            ""
+                        }
+
+                    </div>
 
                 </div>
 
@@ -603,11 +680,13 @@ function openProject(project) {
 
             ${project.images
                 .map(image => `
+
                     <img
                         src="${image}"
                         alt="${project.title}"
                         loading="lazy"
                     >
+
                 `)
                 .join("")
             }
@@ -720,6 +799,7 @@ function openProject(project) {
                     <a
                         href="${project.github}"
                         target="_blank"
+                        rel="noopener noreferrer"
                         class="primary-btn"
                     >
                         GitHub →
@@ -742,6 +822,7 @@ function openProject(project) {
                     <a
                         href="${project.live}"
                         target="_blank"
+                        rel="noopener noreferrer"
                         class="secondary-btn"
                     >
                         Live Demo →
