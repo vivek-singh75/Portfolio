@@ -125,60 +125,65 @@ const projects = [
     {
         id: 3,
 
-        title: "E-Commerce AI Chatbot",
+        title: "DocsChat",
 
         category: "ai",
 
-        categoryName: "AI / RAG",
+        categoryName: "AI / Generative AI",
 
         shortDescription:
-            "A RAG-based customer support chatbot that answers questions using a product knowledge base.",
+            "AI-powered PDF question-answering application using RAG, vector embeddings, semantic search, and Gemini AI.",
 
         description:
-            "This project uses Retrieval-Augmented Generation to provide answers based on company knowledge documents. PDF documents are parsed, converted into chunks, embedded and stored in a vector database. User queries are matched against the knowledge base before generating the final answer.",
+            "DocsChat is a full-stack RAG application that allows users to upload PDF documents and ask questions about their content. It extracts and chunks PDF text, generates vector embeddings using Gemini Embedding 2, retrieves the top relevant chunks using cosine similarity, and uses Gemini AI to generate contextual answers.",
 
         images: [
-            "assets/projects/E-Commerce ChatBot/1.png",
-            "assets/projects/E-Commerce ChatBot/2.png",
-            "assets/projects/E-Commerce ChatBot/3.png",
+            "assets/projects/docsChat/1.png",
+            "assets/projects/docsChat/2.png",
+            "assets/projects/docsChat/3.png",
+            "assets/projects/docsChat/4.png"
         ],
 
         techStack: [
+            "React",
+            "Vite",
             "JavaScript",
             "Node.js",
             "Express.js",
-            "RAG"
+            "Multer",
+            "PDF.js"
         ],
 
         tools: [
-            "Gemini",
-            "Pinecone",
-            "PDF Parse",
+            "Google Gemini API",
+            "VS Code",
             "Git",
             "GitHub",
-            "Render",
-            "GitHub Pages"
+            "Postman"
         ],
 
         features: [
-            "PDF knowledge ingestion",
-            "Document chunking",
-            "Embeddings",
-            "Vector search",
-            "RAG pipeline",
-            "AI-generated answers"
+            "PDF document upload",
+            "PDF text extraction",
+            "Text chunking",
+            "Vector embedding generation",
+            "Semantic similarity search",
+            "Top-3 relevant chunk retrieval",
+            "Context-aware AI answers",
+            "Session-based document management"
         ],
 
-        progress: 75,
+        progress: 100,
 
-        status: "in Development",
+        status: "In Development / Working Prototype",
 
         github:
-            "https://github.com/vivek-singh75/E-Commerce-ChatBot",
+            "https://github.com/vivek-singh75/DocsChat/",
 
         live:
-            "https://vivek-singh75.github.io/E-Commerce-ChatBot/"
+            "https://vivek-singh75.github.io/DocsChat/"
     },
+
 
     {
         id: 4,
@@ -462,6 +467,65 @@ const projects = [
         live:
             "#"
     },
+
+    {
+        id: 9,
+
+        title: "E-Commerce AI Chatbot",
+
+        category: "ai",
+
+        categoryName: "AI / RAG",
+
+        shortDescription:
+            "A RAG-based customer support chatbot that answers questions using a product knowledge base.",
+
+        description:
+            "This project uses Retrieval-Augmented Generation to provide answers based on company knowledge documents. PDF documents are parsed, converted into chunks, embedded and stored in a vector database. User queries are matched against the knowledge base before generating the final answer.",
+
+        images: [
+            "assets/projects/E-Commerce ChatBot/1.png",
+            "assets/projects/E-Commerce ChatBot/2.png",
+            "assets/projects/E-Commerce ChatBot/3.png",
+        ],
+
+        techStack: [
+            "JavaScript",
+            "Node.js",
+            "Express.js",
+            "RAG"
+        ],
+
+        tools: [
+            "Gemini",
+            "Pinecone",
+            "PDF Parse",
+            "Git",
+            "GitHub",
+            "Render",
+            "GitHub Pages"
+        ],
+
+        features: [
+            "PDF knowledge ingestion",
+            "Document chunking",
+            "Embeddings",
+            "Vector search",
+            "RAG pipeline",
+            "AI-generated answers"
+        ],
+
+        progress: 75,
+
+        status: "in Development",
+
+        github:
+            "https://github.com/vivek-singh75/E-Commerce-ChatBot",
+
+        live:
+            "https://vivek-singh75.github.io/E-Commerce-ChatBot/"
+    },
+
 
 ];
 
