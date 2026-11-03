@@ -119,7 +119,7 @@ const projects = [
             "https://github.com/vivek-singh75/",
 
         live:
-            "https://skillgaps-17320.web.ap"
+            "https://skillgaps-17320.web.app"
     },
 
     {
